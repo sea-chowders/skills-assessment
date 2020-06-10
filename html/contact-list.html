@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/contact-list.css">
+        <script src="../js/contact-list.js"></script>
+    </head>
+    <body>
+        <div class="contactListContainer whiteText">
+            <div class="contactListHeader bottomBorder">
+                <h2>Contacts</h2>
+            </div>
+            <div>
+            <ul id="contactList" class='contactList'>
+            </ul>
+            </div>
+            <div class="contactListFooter">
+                <select id='contactDisplay' onchange="changeContactDisplayData()">
+                    <option value='phone'>Phone Number</option>
+                    <option value='email'>Email Address</option>
+                </select>
+
+            </div>
+
+        </div>
+    </body>
+</html>
+
+<script>
+    displayContactList();
+
+    function changeContactDisplayData(){
+        document.getElementById('contactList').innerHTML = '';
+        displayContactList();
+    }
+</script>
+
+<!-- <html><head>
+        <link rel="stylesheet" href="../css/contact-list.css">
+        <script src="../js/contact-list.js"></script>
+    </head>
+    <body>
+        <div class="contactListContainer whiteText">
+            <div class="contactListHeader bottomBorder">
+                <h2>Contacts</h2>
+            </div>
+            <div>
+            <ul id="contactList" class="contactList">
+            <li>
+			<ul data-contact-index="0" class="contactListRow bottomBorder darker focused">
+				<li class="green circle"></li>
+				<li class="nameCol">Christian</li>
+				<li class="contactInfoCol hidden">323-555-1234</li>
+				<div  class="details"></div>
+			</ul>
+			
+			</li><li><ul data-contact-index="1" class="contactListRow bottomBorder lighter"><li class="red circle"></li><li class="nameCol">Rich</li><li class="contactInfoCol hidden">323-555-1234</li><li><div class="hidden details"></div></li></ul></li></ul>
+            </div>
+            <div class="contactListFooter">
+                <select id="contactDisplay" onchange="changeContactDisplayData()">
+                    <option value="phone">Phone Number</option>
+                    <option value="email">Email Address</option>
+                </select>
+
+            </div>
+
+        </div>
+    
+
+
+<script>
+  //  displayContactList();
+
+    function changeContactDisplayData(){
+        document.getElementById('contactList').innerHTML = '';
+        displayContactList();
+    }
+</script></body></html> -->

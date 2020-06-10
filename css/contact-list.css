@@ -1,0 +1,122 @@
+.contactListHeader{
+    padding:10px;
+    height: 4%;
+}
+
+.contactListContainer {
+    width:300px;
+    max-height: 400px;
+    background-color: #363636;
+    border-radius:10px;
+    font-size:12px;
+    background-image: linear-gradient(#363636, #222222);
+}
+
+.contactListFooter{
+    height:4%;
+    padding:10px;
+}
+
+.contactListFooter select{
+    float:right;
+}
+
+.darker{
+    
+    background-color: #222222;
+}
+
+.lighter{
+    background-color: #363636;
+}
+
+.focused{
+    background-color: #949494;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.contactList{
+    list-style: none;
+}
+
+.contactList  ul  li{
+    display:inline-block
+}
+
+.contactListRow{
+    list-style: none;
+    padding:.5em 1.5em;
+    max-height: 26px;
+}
+
+.nameCol {
+    width:10%;  
+    border-right:1px solid black;
+    position:fixed;
+    margin-left:1em;
+}
+
+.contactInfoCol{
+    margin-left:8.5%; 
+    color:lightslategray;
+    position: fixed;
+}
+
+.details{
+    background-color: #949494;
+    height:10%;
+    margin-left:38.5%;
+    width:68.4%;
+    position: relative
+}
+
+.bottomBorder{
+    border-bottom: 1.5px solid black;
+}
+
+.whiteText {
+    color: white;
+}
+
+.circle{
+    width:8px;
+    height:8px;
+    border-radius:5px;
+    position: fixed;
+}
+
+.verticalBar{
+    width: 5%;
+    height: 100%;
+    margin-left: 3%;
+    margin-right:3%;
+    background-color: black;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color:yellow;
+}
+ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h2{
+    margin:0px;
+}
+
+p{
+    margin: 0px;
+}
